@@ -1,0 +1,23 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-page-links li {
+  font-size: 18px;
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.about-page-links li:hover {
+  color: #b1a875a4;
+  text-decoration: underline;
+}
+
+#about-p {
+  margin-top: 50px;
+}

@@ -1,0 +1,31 @@
+.grid-container {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;;
+  row-gap: 50px;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 10%;
+  left: 10.75%;
+  right: 0px;
+}
+
+img {
+  height: 225px;
+  width: 225px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+img:hover {
+  border: 8px solid rgba(0, 0, 0, 0.001)
+}
+
+main {
+  background-color: rgba(11, 9, 16, 0.88);
+  position: relative;
+}
